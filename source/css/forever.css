@@ -1,0 +1,396 @@
+/* 页脚与头图透明 */
+#footer {
+    background: transparent !important;
+  }
+  #page-header {
+    background: transparent !important;
+  }
+  
+  /* 白天模式遮罩透明 */
+  #footer::before {
+    background: transparent !important;
+  }
+  #page-header::before {
+    background: transparent !important;
+  }
+  
+  /* 夜间模式遮罩透明 */
+  [data-theme="dark"] #footer::before {
+    background: transparent !important;
+  }
+  [data-theme="dark"] #page-header::before {
+    background: transparent !important;
+  }
+
+/* 顶部彩色加载条 */
+  .pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: 2000;
+    position: fixed;
+    margin: auto;
+    top: 4px;
+    left: 0;
+    right: 0;
+    height: 8px;
+    border-radius: 8px;
+    width: 7rem;
+    background: #eaecf2;
+    border: 1px #e3e8f7;
+    overflow: hidden
+}
+
+.pace-inactive .pace-progress {
+    opacity: 0;
+    transition: .3s ease-in
+}
+
+.pace .pace-progress {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    max-width: 200px;
+    position: absolute;
+    z-index: 2000;
+    display: block;
+    top: 0;
+    right: 100%;
+    height: 100%;
+    width: 100%;
+    /* linear-gradient(to right, #3494e6, #ec6ead) */
+    background: linear-gradient(to right, #43cea2, #3866ca);
+    animation: gradient 2s ease infinite;
+    background-size: 200%
+}
+
+.pace.pace-inactive {
+    opacity: 0;
+    transition: .3s;
+    top: -8px
+}
+
+/* 自定义字体 */
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'tenuous';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/font/霞鹜文楷.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'middle';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/font/MiSans.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+/* 霓虹灯 */
+/* 日间模式不生效 */
+[data-theme="light"] #site-name,
+[data-theme="light"] #site-title,
+[data-theme="light"] #site-subtitle,
+[data-theme="light"] #post-info {
+  animation: none;
+}
+/* 夜间模式生效 */
+[data-theme="dark"] #site-name,
+[data-theme="dark"] #site-title {
+  animation: light_15px 10s linear infinite;
+}
+[data-theme="dark"] #site-subtitle {
+  animation: light_10px 10s linear infinite;
+}
+[data-theme="dark"] #post-info {
+  animation: light_5px 10s linear infinite;
+}
+/* 关键帧描述 */
+@keyframes light_15px {
+  0% {
+    text-shadow: #5636ed 0 0 15px;
+  }
+  12.5% {
+    text-shadow: #11ee5e 0 0 15px;
+  }
+  25% {
+    text-shadow: #f14747 0 0 15px;
+  }
+  37.5% {
+    text-shadow: #f1a247 0 0 15px;
+  }
+  50% {
+    text-shadow: #f1ee47 0 0 15px;
+  }
+  50% {
+    text-shadow: #b347f1 0 0 15px;
+  }
+  62.5% {
+    text-shadow: #002afa 0 0 15px;
+  }
+  75% {
+    text-shadow: #ed709b 0 0 15px;
+  }
+  87.5% {
+    text-shadow: #39c5bb 0 0 15px;
+  }
+  100% {
+    text-shadow: #5636ed 0 0 15px;
+  }
+}
+
+@keyframes light_10px {
+  0% {
+    text-shadow: #5636ed 0 0 10px;
+  }
+  12.5% {
+    text-shadow: #11ee5e 0 0 10px;
+  }
+  25% {
+    text-shadow: #f14747 0 0 10px;
+  }
+  37.5% {
+    text-shadow: #f1a247 0 0 10px;
+  }
+  50% {
+    text-shadow: #f1ee47 0 0 10px;
+  }
+  50% {
+    text-shadow: #b347f1 0 0 10px;
+  }
+  62.5% {
+    text-shadow: #002afa 0 0 10px;
+  }
+  75% {
+    text-shadow: #ed709b 0 0 10px;
+  }
+  87.5% {
+    text-shadow: #39c5bb 0 0 10px;
+  }
+  100% {
+    text-shadow: #5636ed 0 0 10px;
+  }
+}
+
+@keyframes light_5px {
+  0% {
+    text-shadow: #5636ed 0 0 5px;
+  }
+  12.5% {
+    text-shadow: #11ee5e 0 0 5px;
+  }
+  25% {
+    text-shadow: #f14747 0 0 5px;
+  }
+  37.5% {
+    text-shadow: #f1a247 0 0 15px;
+  }
+  50% {
+    text-shadow: #f1ee47 0 0 5px;
+  }
+  50% {
+    text-shadow: #b347f1 0 0 5px;
+  }
+  62.5% {
+    text-shadow: #002afa 0 0 5px;
+  }
+  75% {
+    text-shadow: #ed709b 0 0 5px;
+  }
+  87.5% {
+    text-shadow: #39c5bb 0 0 5px;
+  }
+  100% {
+    text-shadow: #5636ed 0 0 5px;
+  }
+}
+
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content > .card-widget.card-info {
+  background: linear-gradient(
+    -45deg,
+    #e8d8b9,
+    #eccec5,
+    #a3e9eb,
+    #bdbdf0,
+    #eec1ea
+  );
+  box-shadow: 0 0 5px rgb(66, 68, 68);
+  position: relative;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite !important;
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* 个人信息卡片渐变色 */
+/* 黑夜模式适配 */
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+  background: #191919ee;
+}
+/* 个人信息Follow me按钮 */
+#aside-content > .card-widget.card-info > #card-info-btn {
+  background-color: #3eb8be;
+  border-radius: 8px;
+}
+
+
+
+:root {
+  --trans-light: rgba(255, 255, 255, 0.88);
+  --trans-dark: rgba(25, 25, 25, 0.88);
+  --border-style: 1px solid rgb(169, 169, 169);
+  --backdrop-filter: blur(5px) saturate(150%);
+}
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item {
+  background: var(--trans-light);
+  backdrop-filter: var(--backdrop-filter);
+  border-radius: 25px;
+  border: var(--border-style);
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+  background: var(--trans-light);
+  backdrop-filter: var(--backdrop-filter);
+  border-radius: 18px;
+  border: var(--border-style);
+}
+
+/* 文章页、归档页、普通页面 */
+div#post,
+div#page,
+div#archive {
+  background: var(--trans-light);
+  backdrop-filter: var(--backdrop-filter);
+  border: var(--border-style);
+  border-radius: 20px;
+}
+
+/* 导航栏 */
+#page-header.nav-fixed #nav {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: var(--backdrop-filter);
+}
+
+[data-theme="dark"] #page-header.nav-fixed #nav {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 夜间模式遮罩 */
+[data-theme="dark"] #recent-posts > .recent-post-item,
+[data-theme="dark"] #aside-content .card-widget,
+[data-theme="dark"] div#post,
+[data-theme="dark"] div#archive,
+[data-theme="dark"] div#page {
+  background: var(--trans-dark);
+}
+
+
+/* 夜间模式页脚页头遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+/* 阅读模式 */
+.read-mode #aside-content .card-widget {
+  background: rgba(158, 204, 171, 0.5) !important;
+}
+.read-mode div#post {
+  background: rgba(158, 204, 171, 0.5) !important;
+}
+
+/* 夜间模式下的阅读模式 */
+[data-theme="dark"] .read-mode #aside-content .card-widget {
+  background: rgba(25, 25, 25, 0.9) !important;
+  color: #ffffff;
+}
+[data-theme="dark"] .read-mode div#post {
+  background: rgba(25, 25, 25, 0.9) !important;
+  color: #ffffff;
+}
+
+/* 头像呼吸灯 */
+[data-theme="light"] .avatar-img {
+  animation: huxi_light 4s ease-in-out infinite;
+}
+[data-theme="dark"] .avatar-img {
+  animation: huxi_dark 4s ease-in-out infinite;
+}
+@keyframes huxi_light {
+  0% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 5px #e9f5fa;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+}
+@keyframes huxi_dark {
+  0% {
+    box-shadow: 0px 0px 1px 1px #39c5bb;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 5px #39c5bb;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 1px #39c5bb;
+  }
+}
