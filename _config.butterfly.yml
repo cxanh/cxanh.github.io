@@ -99,8 +99,8 @@ cover:
   -  https://source.fomal.cc/img/default_cover_12.webp
   -  https://source.fomal.cc/img/default_cover_13.webp
   -  https://source.fomal.cc/img/default_cover_8.webp
-  -  https://free.wzznft.com/i/2024/07/20/pc924n.png  
-  -  https://source.fomal.cc/img/dm5.webp 
+  # -  https://free.wzznft.com/i/2024/07/20/pc924n.png  
+  # -  https://source.fomal.cc/img/dm5.webp 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: /img/friend_404.gif
