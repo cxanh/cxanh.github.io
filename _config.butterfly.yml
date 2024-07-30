@@ -659,8 +659,8 @@ background:
   #【必选】默认背景
   default: url(https://source.fomal.cc/img/dm12.webp)
   darkmode: url(https://source.fomal.cc/img/dm7.webp) #【可选】PC端夜间模式背景
-  mobileday: url(https://z1.wzznft.com/i/2024/07/29/zdk6us.jpg) #【可选】移动端日间默认背景
-  mobilenight: url(https://free.wzznft.com/i/2024/07/29/k9z2pt.jpg) #【可选】移动端夜间模式背景
+  mobileday: url(http://imgos.cn/2024/07/30/66a8fd5460881.jpg) #【可选】移动端日间默认背景
+  mobilenight: url(https://z1.wzznft.com/i/2024/07/29/zdk6us.jpg) #【可选】移动端夜间模式背景
   #url(https://img.picui.cn/free/2024/07/16/6695e96bcea2b.jpg)
   #url(https://source.fomal.cc/img/dm4.webp)
   #url(https://free.wzznft.com/i/2024/07/20/rahepm.jpg)
