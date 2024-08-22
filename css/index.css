@@ -1393,7 +1393,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: var(--default-bg);
+  background: url(https://source.fomal.cc/img/dm12.webp);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -1497,7 +1497,7 @@ a:hover {
 #site-name,
 #aside-content .author-info__name,
 #aside-content .author-info__description {
-  font-family: var(--global-font);
+  font-family: tenuous, middle,var(--global-font);
 }
 .is-center {
   text-align: center;
@@ -2016,7 +2016,7 @@ figure.highlight pre .javascript .function {
   height: 100%;
   vertical-align: top;
   text-align: center;
-  font-family: var(--global-font);
+  font-family: tenuous, middle,var(--global-font);
 }
 @media screen and (max-width: 768px) {
   .error404 #error-wrap .error-content .error-info {
@@ -5222,7 +5222,7 @@ mjx-container[display],
   border-radius: 5px !important;
 }
 [data-theme="dark"] #web_bg {
-  background: var(--darkmode-bg);
+  background: url(https://source.fomal.cc/img/dm7.webp);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -5230,14 +5230,14 @@ mjx-container[display],
 }
 @media screen and (max-width: 800px) {
   #web_bg {
-    background: var(--mobileday-bg);
+    background: url(http://imgos.cn/2024/07/30/66a8fd5460881.jpg);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
   [data-theme="dark"] #web_bg {
-    background: var(--mobilenight-bg);
+    background: url(https://source.fomal.cc/img/dm4.webp);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
@@ -7649,7 +7649,7 @@ button#go-up:hover #percent {
 }
 
 /* 侧边栏个人信息卡片动态渐变色 */
-/* #aside-content > .card-widget.card-info {
+#aside-content > .card-widget.card-info {
   background: linear-gradient(
     -45deg,
     #e8d8b9,
@@ -7697,11 +7697,11 @@ button#go-up:hover #percent {
   100% {
     background-position: 0% 50%;
   }
-} */
+}
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -7773,7 +7773,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
+  background: url(/assets/avatar.jpeg)
     no-repeat center center;
   background-size: cover;
 }

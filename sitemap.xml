@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.fomal.cc/tags/index.html</loc>
+    <loc>https://cxanh.github.io/personal/about/index.html</loc>
+    
+    <lastmod>2024-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cxanh.github.io/tags/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/life/movies/index.html</loc>
+    <loc>https://cxanh.github.io/life/movies/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/life/music/index.html</loc>
+    <loc>https://cxanh.github.io/life/music/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/personal/about/index.html</loc>
+    <loc>https://cxanh.github.io/personal/bb/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/personal/love/index.html</loc>
+    <loc>https://cxanh.github.io/personal/love/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/personal/bb/index.html</loc>
+    <loc>https://cxanh.github.io/site/time/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/social/link/index.html</loc>
+    <loc>https://cxanh.github.io/site/census/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/social/fcircle/index.html</loc>
+    <loc>https://cxanh.github.io/social/fcircle/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -74,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/site/census/index.html</loc>
+    <loc>https://cxanh.github.io/social/link/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -83,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/site/time/index.html</loc>
+    <loc>https://cxanh.github.io/categories/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -92,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/categories/index.html</loc>
+    <loc>https://cxanh.github.io/box/animation/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -101,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/box/animation/index.html</loc>
+    <loc>https://cxanh.github.io/box/nav/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -110,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/box/gallery/index.html</loc>
+    <loc>https://cxanh.github.io/box/gallery/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -119,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/life/games/index.html</loc>
+    <loc>https://cxanh.github.io/life/games/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -128,16 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/box/nav/index.html</loc>
-    
-    <lastmod>2024-08-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.fomal.cc/posts/2013454d.html</loc>
+    <loc>https://cxanh.github.io/posts/2013454d.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/site/echarts/index.html</loc>
+    <loc>https://cxanh.github.io/site/echarts/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -156,23 +156,23 @@
   
 
   <url>
-    <loc>https://www.fomal.cc/</loc>
-    <lastmod>2024-08-15</lastmod>
+    <loc>https://cxanh.github.io/</loc>
+    <lastmod>2024-08-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.fomal.cc/tags/Markdown/</loc>
-    <lastmod>2024-08-15</lastmod>
+    <loc>https://cxanh.github.io/tags/Markdown/</loc>
+    <lastmod>2024-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2024-08-15</lastmod>
+    <loc>https://cxanh.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2024-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -180,8 +180,8 @@
 
   
   <url>
-    <loc>https://www.fomal.cc/categories/%E6%BC%94%E7%A4%BA/</loc>
-    <lastmod>2024-08-15</lastmod>
+    <loc>https://cxanh.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <lastmod>2024-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
