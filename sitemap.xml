@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/personal/bb/index.html</loc>
-    
-    <lastmod>2024-08-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cxanh.github.io/life/movies/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
@@ -47,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/personal/love/index.html</loc>
+    <loc>https://cxanh.github.io/personal/bb/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -65,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://cxanh.github.io/social/link/index.html</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cxanh.github.io/site/census/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/social/link/index.html</loc>
+    <loc>https://cxanh.github.io/personal/love/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -92,7 +92,25 @@
   </url>
   
   <url>
+    <loc>https://cxanh.github.io/box/nav/index.html</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cxanh.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cxanh.github.io/box/gallery/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -119,25 +137,7 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/box/nav/index.html</loc>
-    
-    <lastmod>2024-08-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cxanh.github.io/box/gallery/index.html</loc>
-    
-    <lastmod>2024-08-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cxanh.github.io/posts/2013454d.html</loc>
+    <loc>https://cxanh.github.io/posts/6d32863d.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/posts/6d32863d.html</loc>
+    <loc>https://cxanh.github.io/posts/2013454d.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
