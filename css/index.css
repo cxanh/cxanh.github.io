@@ -5230,14 +5230,14 @@ mjx-container[display],
 }
 @media screen and (max-width: 800px) {
   #web_bg {
-    background: urlhttps://pic-bed-b1w.pages.dev/img/p2.jpg);
+    background: url(https://pic-bed-b1w.pages.dev/img/wallhaven-ex5m8w.jpg);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
   [data-theme="dark"] #web_bg {
-    background: url(https://source.fomal.cc/img/dm4.webp);
+    background: url(https://pic-bed-b1w.pages.dev/img/p2.jpg);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;

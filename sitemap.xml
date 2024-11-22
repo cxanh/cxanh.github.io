@@ -20,34 +20,7 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/personal/bb/index.html</loc>
-    
-    <lastmod>2024-08-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cxanh.github.io/site/time/index.html</loc>
-    
-    <lastmod>2024-08-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cxanh.github.io/personal/love/index.html</loc>
-    
-    <lastmod>2024-08-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cxanh.github.io/site/census/index.html</loc>
+    <loc>https://cxanh.github.io/life/movies/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -65,7 +38,16 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/life/movies/index.html</loc>
+    <loc>https://cxanh.github.io/site/census/index.html</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cxanh.github.io/site/time/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -75,6 +57,24 @@
   
   <url>
     <loc>https://cxanh.github.io/social/fcircle/index.html</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cxanh.github.io/personal/bb/index.html</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cxanh.github.io/personal/love/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/box/nav/index.html</loc>
+    <loc>https://cxanh.github.io/life/games/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://cxanh.github.io/life/games/index.html</loc>
+    <loc>https://cxanh.github.io/box/nav/index.html</loc>
     
     <lastmod>2024-08-04</lastmod>
     
